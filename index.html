@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonjoy Bairagee | Portfolio</title>
+    <meta name="description" content="Cinematic and professional video editing services for YouTubers, brands, and businesses.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor (Optional but adds to the modern feel, implemented via CSS) -->
+    
+    <!-- Header / Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Sonjoy<span> Bairagee</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact" class="btn btn-primary nav-btn">Hire Me</a>
+            </nav>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#portfolio" class="mobile-link">Portfolio</a>
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#testimonials" class="mobile-link">Testimonials</a>
+        <a href="#contact" class="mobile-link btn btn-primary">Hire Me</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <!-- 3D Animation Background -->
+        <div class="video-container" id="scene">
+            <!-- Particles Container -->
+            <div id="particles-js" class="particles-layer"></div>
+            
+            <!-- Abstract 3D Elements -->
+            <div class="floating-elements" data-depth="0.2">
+                <!-- Camera Lens Ring -->
+                <div class="lens-ring lens-ring-1"></div>
+                <div class="lens-ring lens-ring-2"></div>
+                <div class="lens-ring lens-ring-3"></div>
+                
+                <!-- Floating Video Frames / Timeline Blocks -->
+                <div class="vid-frame frame-1"></div>
+                <div class="vid-frame frame-2"></div>
+                <div class="vid-frame frame-3"></div>
+                <div class="vid-frame frame-4"></div>
+                
+                <!-- Timeline elements -->
+                <div class="timeline-track timeline-1"></div>
+                <div class="timeline-track timeline-2"></div>
+            </div>
+            
+            <!-- Soft Vignette -->
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="container hero-content animate-on-scroll">
+            <h1 class="hero-title">Professional<br><span>Video Editor</span></h1>
+            <p class="hero-description">Elevating content for YouTubers, brands, and businesses with dynamic cuts, striking motion graphics, and immaculate color grading.</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <p>Scroll to explore</p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-text animate-on-scroll">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="profile-photo-wrapper">
+                    <img src="https://drive.google.com/file/d/1aCYBv_WiJ8Kbkai7DOGrXQnptvqXmbae/view?usp=sharing" alt="Sonjoy Bairagee" class="profile-photo">
+                    <div class="profile-glow"></div>
+                </div>
+                <p>Hello. My name is sonjoy bairagee. I'm a passionate video editor dedicated to turning raw footage into compelling stories. With years of experience working alongside top content creators and forward-thinking brands, I understand the pacing, visual hooks, and aesthetic standards required to captivate modern audiences.</p>
+                <p>My approach is meticulous and creative, ensuring every transition hits exactly on beat, and every frame is color perfected. Let's create something extraordinary together.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50K+</h3>
+                        <p>Total Views Generated</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-skills animate-on-scroll" style="transition-delay: 0.2s;">
+                <h3 class="skills-title">My Toolkit</h3>
+                <div class="skill-category">
+                    <div class="skill-info">
+                        <span>Premiere Pro</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-info">
+                        <span>After Effects</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-info">
+                        <span>Motion Graphics</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-info">
+                        <span>Color Grading (DaVinci Resolve)</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" data-width="92%"></div></div>
+                </div>
+                
+                <div class="software-icons">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" alt="Premiere Pro" title="Premiere Pro">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" alt="After Effects" title="After Effects">
+                    <!-- DaVinci Resolve icon -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/DaVinci_Resolve_17_logo.svg" alt="DaVinci Resolve" title="DaVinci Resolve">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-darker">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Selected <span>Works</span></h2>
+                <p class="section-subtitle">A showcase of recent editing projects, ranging from high-retention YouTube videos to cinematic brand campaigns.</p>
+            </div>
+            
+            <!-- Portfolio Category Filters -->
+            <div class="portfolio-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="long-form">Long Form Video</button>
+                <button class="filter-btn" data-filter="short-form">Reels & Shorts</button>
+            </div>
+
+            <!-- Dynamic Portfolio Grid -->
+            <!-- Grouped conceptually: 3 Landscape on top, 3 Vertical on bottom when all visible, but heavily reliant on filters -->
+            <div class="portfolio-grid-v2">
+                <!-- ================= Landscape Videos (16:9) ================= -->
+                
+                <!-- Project 1: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <div class="video-preview-container" data-video-id="JMOf00uc-Jo">
+                        <img src="https://img.youtube.com/vi/JMOf00uc-Jo/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/JMOf00uc-Jo/hqdefault.jpg'" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Creative Agency Showreel</h3>
+                        <p>Editing & Color Grading</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <div class="video-preview-container" data-video-id="8R2FMY4qJZc">
+                        <img src="https://img.youtube.com/vi/8R2FMY4qJZc/maxresdefault.jpg" alt="Real Growth" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Stop Choosing! Education + Skills = Real Growth</h3>
+                        <p>Motivational video & Motion Graphics</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <!-- Note: Replace ZWzwXN4q9yU with your actual 3rd video ID -->
+                    <div class="video-preview-container" data-video-id="694BhaZl-74">
+                        <img src="https://img.youtube.com/vi/694BhaZl-74/maxresdefault.jpg" alt="Podcast Edit" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Power of personalization</h3>
+                        <p>Storytelling & Podcast Edit</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <div class="video-preview-container" data-video-id="JJTDgRWn78w">
+                        <img src="https://img.youtube.com/vi/JJTDgRWn78w/maxresdefault.jpg" alt="BridgeX studio Ads" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>BridgeX studio Ads</h3>
+                        <p>Commercial Ads</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <div class="video-preview-container" data-video-id="o0Ykv6qh4tc">
+                        <img src="https://img.youtube.com/vi/o0Ykv6qh4tc/maxresdefault.jpg" alt="Youtube Video" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Youtube Video Content</h3>
+                        <p>Movie Trailer Review</p>
+                    </div>
+                </div>
+
+                <!-- Project 6: Long Form -->
+                <div class="portfolio-card mix long-form">
+                    <div class="video-preview-container" data-video-id="D8Ox2cMI-88">
+                        <img src="https://img.youtube.com/vi/D8Ox2cMI-88/maxresdefault.jpg" alt="Movie Explained" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i> Hover to play</div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> 16:9</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Movie Explained</h3>
+                        <p>Youtube Content</p>
+                    </div>
+                </div>
+
+                <!-- ================= Vertical Videos (9:16) ================= -->
+
+                <!-- Project 1: Short Form (Reel 1) -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="BTIyANewdE4">
+                        <img src="" onerror="this.src='https://img.youtube.com/vi/BTIyANewdE4/hqdefault.jpg'" alt="Engaging Asthetic Reels" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-instagram"></i> Reel</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Asthetic Reels</h3>
+                        <p>High-Retention Shorts</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Short Form (Reel 2 / TikTok) -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="8QstuQp_DBo">
+                        <img src="" onerror="this.src='https://img.youtube.com/vi/8QstuQp_DBo/hqdefault.jpg'" alt="Viral TikTok Cut" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-tiktok"></i> TikTok</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Inspiration Edit</h3>
+                        <p>Trendy Effects & Motion Graphics</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Short Form (Reel 3 / Shorts) -->
+                <!-- Added a 3rd Vertical Video -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="5ARK6hg6nZc">
+                        <img src="" onerror="this.src='https://img.youtube.com/vi/5ARK6hg6nZc/hqdefault.jpg'" alt="YouTube Shorts Edit" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> Shorts</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Highlight Podcast Clip</h3>
+                        <p>Captioning & Pacing</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Short Form -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="h2hqo02F1GM">
+                        <img src="https://img.youtube.com/vi/h2hqo02F1GM/hqdefault.jpg" alt="Vertical Video 4" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-instagram"></i> Reel</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Boost Motivation</h3>
+                        <p>Story telling & Motion Graphics</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Short Form -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="Eip94M5zU9k">
+                        <img src="https://img.youtube.com/vi/Eip94M5zU9k/hqdefault.jpg" alt="Vertical Video 5" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-tiktok"></i> TikTok</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Editing mindset inspiration</h3>
+                        <p>Khachar Bhitor Ochin Pakhi</p>
+                    </div>
+                </div>
+
+                <!-- Project 6: Short Form -->
+                <div class="portfolio-card mix short-form vertical hidden" style="display: none;">
+                    <div class="video-preview-container" data-video-id="6wzckOFyirg">
+                        <img src="https://img.youtube.com/vi/6wzckOFyirg/hqdefault.jpg" alt="Vertical Video 6" class="video-thumbnail">
+                        <div class="play-indicator"><i class="fas fa-play"></i></div>
+                        <div class="format-badge"><i class="fab fa-youtube"></i> Shorts</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Gradient character animation</h3>
+                        <p>Animation</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center-action animate-on-scroll">
+                <a href="#contact" class="btn btn-outline">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">My <span>Services</span></h2>
+                <p class="section-subtitle">Comprehensive post-production solutions customized to your specific needs.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube Video Editing</h3>
+                    <p>Optimized for retention. I provide snappy cuts, engaging B-roll overlays, pop-up text graphics, sound effects, and background music tailored to your niche.</p>
+                </div>
+                
+                <!-- New Service: Shorts & Reels -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.05s;">
+                    <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Shorts & Reels</h3>
+                    <p>High-retention vertical content for TikTok, Instagram Reels, and YouTube Shorts with engaging captions and fast pacing.</p>
+                </div>
+
+                <!-- New Service: Travel Vlog Editing -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-plane-departure"></i></div>
+                    <h3>Travel Vlog Editing</h3>
+                    <p>Cinematic travel montages, dynamic speed ramping, map animations, and immersive drone footage coloring.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.15s;">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Commercials & Promo</h3>
+                    <p>Cinematic editing for brands and businesses. High-end visual storytelling to elevate your product or service and drive conversions.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.25s;">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Motion Graphics & Titles</h3>
+                    <p>I build custom templates, lower thirds, and intro sequences in After Effects to give your videos a premium, polished look.</p>
+                </div>
+
+                <!-- New Service: Podcast Editing -->
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.3s;">
+                    <div class="service-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <h3>Podcast Editing</h3>
+                    <p>Multi-cam switching, background noise removal, audio sweetening, and engaging highlight clips from long unscripted sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-darker">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Client <span>Feedback</span></h2>
+                <p class="section-subtitle">Don't just take my word for it. Here is what my clients say about working together.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card animate-on-scroll">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="review-text">"The editing is absolutely phenomenal. They took my raw rambling footage and turned it into an incredibly engaging hook-driven video. My AVD (Average View Duration) doubled on the first video we worked on."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>Alex Mitchell</h4>
+                            <span>Tech YouTuber (500k Subs)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card animate-on-scroll" style="transition-delay: 0.1s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="review-text">"Extremely professional and delivered ahead of schedule. The color grading they did on our commercial made it look like it was shot on a Hollywood set. Highly recommend for any serious brand."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>Sarah Jenkins</h4>
+                            <span>Creative Director, Nova Brands</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card animate-on-scroll" style="transition-delay: 0.2s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="review-text">"Communication was seamless. They understood the energetic vibe I wanted for my gaming channel right away. The motion tracking and sound design were next level!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>David 'Apex' Chen</h4>
+                            <span>Gaming Content Creator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <div class="contact-info animate-on-scroll">
+                <h2 class="section-title">Ready To <span>Create?</span></h2>
+                <p class="contact-desc">Whether you have a specific project in mind or just want to explore possibilities, I'm always open to discussing new opportunities. Reach out using any of the platforms below.</p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:hello@example.com" class="contact-method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-details">
+                            <h3>Email Me</h3>
+                            <p>sonjoy.bairagee@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                        <div class="method-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="method-details">
+                            <h3>WhatsApp</h3>
+                            <p>+880 192-257-7297</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/sonjoy-bairagee-8a6137165/" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                        <div class="method-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="method-details">
+                            <h3>LinkedIn</h3>
+                            <p>Professional Network</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-form-container animate-on-scroll" style="transition-delay: 0.2s;">
+                <form id="portfolio-form" class="contact-form" name="google-sheet">
+                    <h3 class="form-title">Send a Message</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="Name" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project-type">Project Type</label>
+                        <select id="project-type" name="ProjectType" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="youtube">YouTube Video</option>
+                            <option value="commercial">Brand Commercial</option>
+                            <option value="music-video">Music Video</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="Message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span> <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                    </button>
+                    <p id="form-status" style="margin-top: 15px; font-weight: bold; text-align: center; display: none;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="#hero" class="logo">Sonjoy<span> Bairagee</span></a>
+                <p>Elevating digital content with cinematic post-production.</p>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Vimeo"><i class="fab fa-vimeo-v"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sonjoy Bairagee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -628,6 +628,7 @@ header.scrolled {
     color: var(--text-muted);
     margin-bottom: 25px;
     font-size: 1.15rem;
+    text-align: justify;
 }
 
 .stats-grid {
